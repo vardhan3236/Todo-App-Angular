@@ -1,0 +1,45 @@
+<!-- <app-tasks></app-tasks> -->
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" *ngIf = "tab != 'logout'">
+    <!-- Container wrapper -->
+    <div class="container" style="background-color: grey;">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#"><img id="MDB-logo"
+          src="assets\icons8-reminders-50.png" alt="To Do"
+          draggable="false" height="70" /></a>
+  
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left links -->
+        <!-- Left links -->
+  
+        <ul class="navbar-nav ms-3" style="padding-left: 900px;">
+          <li class="nav-item me-3">
+            <a class="nav-link d-flex align-items-center" href="#!" [class.darken] = "tab == 'profile'" (click) = "tabClick('profile')">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center me-3" href="#!" [class.darken] = "tab == 'tasks'" (click) = "tabClick('tasks')">
+            My Tasks
+            </a>
+          </li> 
+          <li class="nav-item" style="width: 65px;">
+            <a class="nav-link d-flex align-items-center" href="#!" [class.darken] = "tab == 'logout'" (click) = "tabClick('logout')">Logout</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+<app-profile *ngIf = "tab == 'profile'"></app-profile>
+<app-tasks *ngIf = "tab == 'tasks'"></app-tasks>
+<app-register *ngIf = "tab == 'logout'"></app-register>
