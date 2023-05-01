@@ -49,6 +49,6 @@ export class TasksComponent {
   }
 
   update(t: any) {
-  this.api.updateTask(t);
+  this.api.updateTask(t).subscribe((value) => {});
 }
 }
