@@ -1,27 +1,22 @@
-# Todo
+# Todo-App
+This is the first node js app.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
+# Register Page
+![image](https://github.com/vardhan3236/Todo-App/assets/126255853/1f57e247-9663-42c9-bcfe-2bc513166480)
 
-## Development server
+# Sign In Page 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![image](https://github.com/vardhan3236/Todo-App/assets/126255853/a0afd674-76eb-4978-93ad-690355787d65)
 
-## Code scaffolding
+# Dashboard
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![image](https://github.com/vardhan3236/Todo-App/assets/126255853/2438842d-3268-45ca-99b1-386607e6924b)
 
-## Build
+# My Tasks
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![image](https://github.com/vardhan3236/Todo-App/assets/126255853/87a6ccce-34a3-4b93-8684-b8ddb74c3686)
 
-## Running unit tests
+# After Log Out
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![image](https://github.com/vardhan3236/Todo-App/assets/126255853/c3139670-8502-46e9-a768-64505da8d0a2)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
